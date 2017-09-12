@@ -11,7 +11,7 @@ mnist = input_data.read_data_sets("/tmp/data/", one_hot = True)
 batch_size = 128
 
 # How many times do we want to train the network
-hm_epochs = 500
+hm_epochs = 50
 
 # These are the entry points to the graph, x is the input, in this case images. Y is the labels
 x = tf.placeholder('float', [None, 784])
